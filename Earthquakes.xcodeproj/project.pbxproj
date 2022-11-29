@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BD2DD392932D4FB0079157A /* EarthquakesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD2DD382932D4FB0079157A /* EarthquakesApp.swift */; };
-		0BD2DD3B2932D4FB0079157A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD2DD3A2932D4FB0079157A /* ContentView.swift */; };
-		0BD2DD3D2932D4FD0079157A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BD2DD3C2932D4FD0079157A /* Assets.xcassets */; };
-		0BD2DD402932D4FD0079157A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BD2DD3F2932D4FD0079157A /* Preview Assets.xcassets */; };
 		0BD2DD4A2932D4FD0079157A /* EarthquakesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD2DD492932D4FD0079157A /* EarthquakesTests.swift */; };
 		0BD2DD542932D4FD0079157A /* EarthquakesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD2DD532932D4FD0079157A /* EarthquakesUITests.swift */; };
 		0BD2DD562932D4FD0079157A /* EarthquakesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD2DD552932D4FD0079157A /* EarthquakesUITestsLaunchTests.swift */; };
@@ -35,10 +31,6 @@
 
 /* Begin PBXFileReference section */
 		0BD2DD352932D4FB0079157A /* Earthquakes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Earthquakes.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BD2DD382932D4FB0079157A /* EarthquakesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakesApp.swift; sourceTree = "<group>"; };
-		0BD2DD3A2932D4FB0079157A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		0BD2DD3C2932D4FD0079157A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0BD2DD3F2932D4FD0079157A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0BD2DD452932D4FD0079157A /* EarthquakesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthquakesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BD2DD492932D4FD0079157A /* EarthquakesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakesTests.swift; sourceTree = "<group>"; };
 		0BD2DD4F2932D4FD0079157A /* EarthquakesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthquakesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,20 +86,8 @@
 		0BD2DD372932D4FB0079157A /* Earthquakes */ = {
 			isa = PBXGroup;
 			children = (
-				0BD2DD382932D4FB0079157A /* EarthquakesApp.swift */,
-				0BD2DD3A2932D4FB0079157A /* ContentView.swift */,
-				0BD2DD3C2932D4FD0079157A /* Assets.xcassets */,
-				0BD2DD3E2932D4FD0079157A /* Preview Content */,
 			);
 			path = Earthquakes;
-			sourceTree = "<group>";
-		};
-		0BD2DD3E2932D4FD0079157A /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				0BD2DD3F2932D4FD0079157A /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		0BD2DD482932D4FD0079157A /* EarthquakesTests */ = {
@@ -231,8 +211,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BD2DD402932D4FD0079157A /* Preview Assets.xcassets in Resources */,
-				0BD2DD3D2932D4FD0079157A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +235,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BD2DD3B2932D4FB0079157A /* ContentView.swift in Sources */,
-				0BD2DD392932D4FB0079157A /* EarthquakesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,7 +446,6 @@
 		0BD2DD5D2932D4FD0079157A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -490,7 +465,6 @@
 		0BD2DD5E2932D4FD0079157A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -510,7 +484,6 @@
 		0BD2DD602932D4FD0079157A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8TXZ7W2TYZ;
@@ -528,7 +501,6 @@
 		0BD2DD612932D4FD0079157A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8TXZ7W2TYZ;
